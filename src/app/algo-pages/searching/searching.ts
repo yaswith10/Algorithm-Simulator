@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Searching {
   searchArray = [1,2,3];
+  target = 2;
+  
 
 }

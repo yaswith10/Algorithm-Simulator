@@ -1,5 +1,33 @@
 <h2> Searching Algorithms </h2>
-@for (item of searchArray; track $index) {
-    {{ item }}
-}
+
+<h4> Input Values </h4>
+
+<div>
+    search space = [@for(item of searchArray; track $index){
+        <span> {{item}} </span>
+    }] 
+</div>
+<div>
+    target = {{ target }}
+</div>
+
+<button> Change Input </button>
+
+
+<h4> Linear Search </h4>
+<div class="array">
+    @for (item of searchArray; track $index) {
+        <div class="array-block">{{ item }} </div>
+    }
+</div>
+
+<h4> Binary Search </h4>
+<div class="array">
+    @for (item of searchArray; track $index) {
+        <div class="array-block">{{ item }} </div>
+    }
+</div>
+
+
+
 

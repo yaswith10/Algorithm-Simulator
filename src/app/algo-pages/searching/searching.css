@@ -1,0 +1,41 @@
+.array{
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: greenyellow;
+}
+.array-block{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 20px;
+    outline: none;
+}
+
+button{
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(0, 172, 0);
+    color: white;
+}

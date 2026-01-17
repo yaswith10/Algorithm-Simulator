@@ -2,10 +2,13 @@
     Algorithm Simulator
 </header>
 
-<button (click)="changeSelectedAlgo('searching')"> Searching Algoritms </button>
+<div id="main">
+    <button (click)="changeSelectedAlgo('searching')" [class.b-sel]="selectedAlgo === 'searching'"> Searching Algoritms </button>
 
-@if(selectedAlgo === "searching"){
-    <app-searching/>
-}
+    @if(selectedAlgo === "searching"){
+        <app-searching/>
+    }
+</div>
+
 
 
